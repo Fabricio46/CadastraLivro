@@ -1,0 +1,76 @@
+#include <stdio.h> 
+#include <stdlib.h> 
+#include <string.h> 
+#include <time.h>
+
+struct cadastro {
+char titulo[20];
+char autor[20];
+char genero[20];
+char numpagina[100];
+}cadastro;
+int main(void)
+{
+char*cadastro_titulo();
+char *cadastro_autor();
+char *buscarLivro();
+char *genero();
+char *numpagina();
+int logo();
+int a,b,c,d,nc;
+int logado;
+int op;
+struct cadastro logando[4];
+logo();
+printf("\t\t1 - FAZER CADASTRO\n\n"); 
+printf("\t\t2 - FAZER CONSULTA.\n\n"); 
+printf("\t\t3 - VOLTAR A PAGINA DE BUSCA.\n\n"); 
+printf("\t\t4 - SAIR DO SISTEMA.\n\n"); 
+scanf("%d", &op);
+
+if (op == 1) {
+printf("\nDigite o TITULO que deseja cadastrar.: \n"); scanf("%d",&nc);
+printf("\nDigite o AUTOR que deseja cadastrar.: \n"); scanf("%d",&nc);
+printf("\nDigite o GENERO que deseja cadastrar.: \n"); scanf("%d",&nc);
+printf("\nDigite o NUMERO DE PAGINAS que deseja cadastrar.: \n"); scanf("%d",&nc);
+for (a=0;a<nc;a++){
+}
+}else if (op == 3){
+exit(0);//buscarLivro(); //Voltar para a pagina de buscac. }
+else if (op == 4){
+exit(0); //Sai do Sistema }
+system("cls");
+for (c=0;c<3;c++)
+{
+{
+logado = 1; //login e/ou senha incorretos }
+{
+{
+logado = 2; //logado com sucesso
+break;
+}
+}
+}
+if (logado==1)
+{
+printf("\nNao localizado");
+
+system("pause"); 
+system("cls"); 
+main();
+}
+else if (logado==2) {
+}
+return 0;
+}
+char *cadastro_login()
+{
+struct cadastro autor[1];
+system("cls");
+printf("\n\tCadastro");
+puts("\n\n\tDigite o autor: ");
+printf("\t");
+}
+int logo(){
+printf("\n*---------BIBLIOTECA VIRTUAL---------*\n\n\n"); 
+printf("Seja bem vindo\t\tESCOLHA UMA OPCAO\t\t\t\n"); }
